@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 20px solid black;
+    border-radius: 50%;
+}
+
+.hand {
+    position: absolute;
+    margin: 10px;
+    width: 10px;
+    height: 140px;
+    background-color: black;
+    transform-origin: bottom;
+    transition-timing-function:  cubic-bezier(0.13, 3.57, 1, 1) !important;
+}
